@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #6C3BC5;
+  --primary-dark: #4F2799;
+  --secondary: #A78BFA;
+  --light-purple: #F3EEFF;
+  --soft-purple: #E9DFFF;
+  --dark: #241B35;
+  --text: #5F566D;
+  --white: #FFFFFF;
+}
+.hero {
+  background: linear-gradient(
+    135deg,
+    #F3EEFF,
+    #FFFFFF,
+    #E9DFFF
+  );
+}
+
+.primary-btn {
+  background: linear-gradient(
+    135deg,
+    #6C3BC5,
+    #A78BFA
+  );
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #241b35;
+}
+
+a {
+  text-decoration: none;
+}
+/* HERO SECTION */
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 10%;
+  background: #faf8ff;
+}
+
+/* LEFT CONTENT */
+
+.hero-content {
+  max-width: 550px;
+}
+
+.intro {
+  color: #7042d5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-content h1 {
+  font-size: 65px;
+  margin: 10px 0;
+  color: #241b35;
+}
+
+.hero-content h1 span {
+  color: #7042d5;
+}
+
+.hero-content h2 {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #514466;
+}
+
+.description {
+  margin-top: 20px;
+  color: #766f83;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.primary-btn {
+  background: #7042d5;
+  color: white;
+}
+
+.secondary-btn {
+  border: 2px solid #7042d5;
+  color: #7042d5;
+}
+
+.primary-btn:hover {
+  background: #4e279e;
+  transform: translateY(-3px);
+}
+
+.secondary-btn:hover {
+  background: #7042d5;
+  color: white;
+}
+
+/* PROFILE IMAGE */
+
+.hero-image img {
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 45% 45% 20px 20px;
+  border: 8px solid rgb(255, 255, 255);
+  box-shadow: 0 15px 40px rgba(112, 66, 213, 0.3);
+}
