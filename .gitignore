@@ -52,6 +52,6 @@ pnpm-debug.log*
 .DS_Store
 # Personal files - keep private
 public/me.jpg
-public/pp.jpg
+
 public/resume.pdf
 src/components/image.png
