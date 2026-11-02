@@ -53,5 +53,5 @@ pnpm-debug.log*
 # Personal files - keep private
 public/me.jpg
 
-public/resume.pdf
+
 src/components/image.png
